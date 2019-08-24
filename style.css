@@ -1,0 +1,141 @@
+/* styling based on mock-up of Rickenbaugh Volvo Cars at https://www.rickenbaughvolvocars.com/ */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    font-family:Sans-Serif;
+    font-size: 0.75rem;
+    background-color: white;
+}
+
+h1 {
+    color: purple;
+}
+
+h2 {
+    text-align: center;
+    border: 2px solid black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}  
+
+li {
+    display: inline;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #131517;
+}
+
+a:link:hover {
+    color: #1154bf;
+}
+
+button {
+    margin: 2px;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #D3D3D3;
+    background-color: white;
+    font-size: 0.75rem;
+}
+
+button:focus {
+    outline: none; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: white;
+    height: 5rem;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+}
+
+.navbarList {
+    padding-right: 10px;
+}
+
+.logo {
+    font-family: 'Audiowide', cursive;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+/* .loginLink {
+    display: block;
+} */
+
+.card1 {
+    display: block;
+    position: relative;
+    margin: 5rem 0 0 0;
+    background-image: url("Black-Enzo-Ferrari.jpg");
+    width: 100vw;
+    height: 600px;
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+}
+
+.inventorySearchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    height: 5rem;
+    width: 100vw;
+}
+
+.threePicNavBar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: white;
+    max-height: 20rem;
+    height: auto;
+    width: 100vw;
+}
+
+.smallCarImg {
+    width: 33.3%;
+    margin: 3px;
+}
+
+.blueButton {
+    background-color: #1154bf;
+    color: white;
+}
+
+.blueButton:hover {
+    background-color: white;
+    color: #1154bf;
+}
+
+a:link.focusTopNav {
+    text-decoration: none;
+    color: #131517;
+}
+
+a:link.focusTopNav:hover {
+    color: #1154bf;
+}
+
+.focusTopNav {
+    color: #1154bf;
+}
